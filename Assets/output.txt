@@ -1,0 +1,609 @@
+Folder PATH listing
+Volume serial number is DCD1-AC86
+C:.
+|   background.png
+|   background.png.meta
+|   Blue_Icon.png
+|   Blue_Icon.png.meta
+|   Cauldron.png
+|   Cauldron.png.meta
+|   CauldronSpinner.cs
+|   CauldronSpinner.cs.meta
+|   DebugTester.cs
+|   DebugTester.cs.meta
+|   DefaultVolumeProfile.asset
+|   DefaultVolumeProfile.asset.meta
+|   ErrorManager.cs
+|   ErrorManager.cs.meta
+|   FlowerGarden.cs
+|   FlowerGarden.cs.meta
+|   Flower_Garden_0.procreate
+|   Flower_Garden_0.procreate.meta
+|   GameManager.cs
+|   GameManager.cs.meta
+|   Green_Icon.png
+|   Green_Icon.png.meta
+|   InputSystem_Actions.inputactions
+|   InputSystem_Actions.inputactions.meta
+|   Orange_Icon.png
+|   Orange_Icon.png.meta
+|   output.txt
+|   Pixel Witch Placeholders.meta
+|   Pixel Witch.unity
+|   Pixel Witch.unity.meta
+|   Purple_Icon.png
+|   Purple_Icon.png.meta
+|   Red_Icon.png
+|   Red_Icon.png.meta
+|   Scenes.meta
+|   Settings.meta
+|   Shitty Background.png
+|   Shitty Background.png.meta
+|   Shitty Cauldron.png
+|   Shitty Cauldron.png.meta
+|   TextMesh Pro.meta
+|   Tileset.meta
+|   UniversalRenderPipelineGlobalSettings.asset
+|   UniversalRenderPipelineGlobalSettings.asset.meta
+|   Yellow_Icon.png
+|   Yellow_Icon.png.meta
+|   
++---Pixel Witch Placeholders
+|       Cauldron 2.png
+|       Cauldron 2.png.meta
+|       Cauldron.png
+|       Cauldron.png.meta
+|       Cauldron_Background 2.png
+|       Cauldron_Background 2.png.meta
+|       Cauldron_Background.png
+|       Cauldron_Background.png.meta
+|       Cottage_Rough.png
+|       Cottage_Rough.png.meta
+|       Dragonfly.png
+|       Dragonfly.png.meta
+|       Flower_Garden_0 2.png
+|       Flower_Garden_0 2.png.meta
+|       Flower_Garden_0.png
+|       Flower_Garden_0.png.meta
+|       Flower_Garden_1 2.png
+|       Flower_Garden_1 2.png.meta
+|       Flower_Garden_1.png
+|       Flower_Garden_1.png.meta
+|       Flower_Garden_2 2.png
+|       Flower_Garden_2 2.png.meta
+|       Flower_Garden_2.png
+|       Flower_Garden_2.png.meta
+|       Flower_Garden_3 2.png
+|       Flower_Garden_3 2.png.meta
+|       Flower_Garden_3.png
+|       Flower_Garden_3.png.meta
+|       Gem_Beetle.png
+|       Gem_Beetle.png.meta
+|       Icons.png
+|       Icons.png.meta
+|       Witch_Forest_Background 2.png
+|       Witch_Forest_Background 2.png.meta
+|       Witch_Forest_Background 3.png
+|       Witch_Forest_Background 3.png.meta
+|       Witch_Forest_Background.png
+|       Witch_Forest_Background.png.meta
+|       
++---Scenes
+|       CauldronScene.unity
+|       CauldronScene.unity.meta
+|       GardenScene.unity
+|       GardenScene.unity.meta
+|       SampleScene.unity
+|       SampleScene.unity.meta
+|       
++---Settings
+|   |   Lit2DSceneTemplate.scenetemplate
+|   |   Lit2DSceneTemplate.scenetemplate.meta
+|   |   Renderer2D.asset
+|   |   Renderer2D.asset.meta
+|   |   Scenes.meta
+|   |   UniversalRP.asset
+|   |   UniversalRP.asset.meta
+|   |   
+|   \---Scenes
+|           URP2DSceneTemplate.unity
+|           URP2DSceneTemplate.unity.meta
+|           
++---TextMesh Pro
+|   |   Examples & Extras.meta
+|   |   Fonts.meta
+|   |   Resources.meta
+|   |   Shaders.meta
+|   |   Sprites.meta
+|   |   
+|   +---Examples & Extras
+|   |   |   Fonts.meta
+|   |   |   Materials.meta
+|   |   |   Prefabs.meta
+|   |   |   Resources.meta
+|   |   |   Scenes.meta
+|   |   |   Scripts.meta
+|   |   |   Sprites.meta
+|   |   |   Textures.meta
+|   |   |   
+|   |   +---Fonts
+|   |   |       Anton OFL.txt
+|   |   |       Anton OFL.txt.meta
+|   |   |       Anton.ttf
+|   |   |       Anton.ttf.meta
+|   |   |       Bangers - OFL.txt
+|   |   |       Bangers - OFL.txt.meta
+|   |   |       Bangers.ttf
+|   |   |       Bangers.ttf.meta
+|   |   |       Electronic Highway Sign.TTF
+|   |   |       Electronic Highway Sign.TTF.meta
+|   |   |       Oswald-Bold - OFL.txt
+|   |   |       Oswald-Bold - OFL.txt.meta
+|   |   |       Oswald-Bold.ttf
+|   |   |       Oswald-Bold.ttf.meta
+|   |   |       Roboto-Bold - AFL.txt
+|   |   |       Roboto-Bold - AFL.txt.meta
+|   |   |       Roboto-Bold - License.txt
+|   |   |       Roboto-Bold - License.txt.meta
+|   |   |       Roboto-Bold.ttf
+|   |   |       Roboto-Bold.ttf.meta
+|   |   |       Unity - OFL.txt
+|   |   |       Unity - OFL.txt.meta
+|   |   |       Unity.ttf
+|   |   |       Unity.ttf.meta
+|   |   |       
+|   |   +---Materials
+|   |   |       Crate - Surface Shader Scene.mat
+|   |   |       Crate - Surface Shader Scene.mat.meta
+|   |   |       Crate - URP.mat
+|   |   |       Crate - URP.mat.meta
+|   |   |       Ground - Logo Scene.mat
+|   |   |       Ground - Logo Scene.mat.meta
+|   |   |       Ground - Surface Shader Scene.mat
+|   |   |       Ground - Surface Shader Scene.mat.meta
+|   |   |       Ground - URP.mat
+|   |   |       Ground - URP.mat.meta
+|   |   |       Small Crate_diffuse.mat
+|   |   |       Small Crate_diffuse.mat.meta
+|   |   |       
+|   |   +---Prefabs
+|   |   |       Text Popup.prefab
+|   |   |       Text Popup.prefab.meta
+|   |   |       TextMeshPro - Prefab 1.prefab
+|   |   |       TextMeshPro - Prefab 1.prefab.meta
+|   |   |       TextMeshPro - Prefab 2.prefab
+|   |   |       TextMeshPro - Prefab 2.prefab.meta
+|   |   |       
+|   |   +---Resources
+|   |   |   |   Color Gradient Presets.meta
+|   |   |   |   Fonts & Materials.meta
+|   |   |   |   Sprite Assets.meta
+|   |   |   |   
+|   |   |   +---Color Gradient Presets
+|   |   |   |       Blue to Purple - Vertical.asset
+|   |   |   |       Blue to Purple - Vertical.asset.meta
+|   |   |   |       Dark to Light Green - Vertical.asset
+|   |   |   |       Dark to Light Green - Vertical.asset.meta
+|   |   |   |       Light to Dark Green - Vertical.asset
+|   |   |   |       Light to Dark Green - Vertical.asset.meta
+|   |   |   |       Yellow to Orange - Vertical.asset
+|   |   |   |       Yellow to Orange - Vertical.asset.meta
+|   |   |   |       
+|   |   |   +---Fonts & Materials
+|   |   |   |       Anton SDF - Drop Shadow.mat
+|   |   |   |       Anton SDF - Drop Shadow.mat.meta
+|   |   |   |       Anton SDF - Outline.mat
+|   |   |   |       Anton SDF - Outline.mat.meta
+|   |   |   |       Anton SDF - Sunny Days.mat
+|   |   |   |       Anton SDF - Sunny Days.mat.meta
+|   |   |   |       Anton SDF.asset
+|   |   |   |       Anton SDF.asset.meta
+|   |   |   |       Bangers SDF - Drop Shadow - 2 Pass.mat
+|   |   |   |       Bangers SDF - Drop Shadow - 2 Pass.mat.meta
+|   |   |   |       Bangers SDF - Drop Shadow.mat
+|   |   |   |       Bangers SDF - Drop Shadow.mat.meta
+|   |   |   |       Bangers SDF - Outline.mat
+|   |   |   |       Bangers SDF - Outline.mat.meta
+|   |   |   |       Bangers SDF Glow.mat
+|   |   |   |       Bangers SDF Glow.mat.meta
+|   |   |   |       Bangers SDF Logo - URP.mat
+|   |   |   |       Bangers SDF Logo - URP.mat.meta
+|   |   |   |       Bangers SDF Logo.mat
+|   |   |   |       Bangers SDF Logo.mat.meta
+|   |   |   |       Bangers SDF.asset
+|   |   |   |       Bangers SDF.asset.meta
+|   |   |   |       Electronic Highway Sign SDF.asset
+|   |   |   |       Electronic Highway Sign SDF.asset.meta
+|   |   |   |       LiberationSans SDF - Metalic Green.mat
+|   |   |   |       LiberationSans SDF - Metalic Green.mat.meta
+|   |   |   |       LiberationSans SDF - Overlay.mat
+|   |   |   |       LiberationSans SDF - Overlay.mat.meta
+|   |   |   |       LiberationSans SDF - Soft Mask.mat
+|   |   |   |       LiberationSans SDF - Soft Mask.mat.meta
+|   |   |   |       Oswald Bold SDF.asset
+|   |   |   |       Oswald Bold SDF.asset.meta
+|   |   |   |       Roboto-Bold SDF - Drop Shadow.mat
+|   |   |   |       Roboto-Bold SDF - Drop Shadow.mat.meta
+|   |   |   |       Roboto-Bold SDF - HDRP Unlit.mat
+|   |   |   |       Roboto-Bold SDF - HDRP Unlit.mat.meta
+|   |   |   |       Roboto-Bold SDF - Surface.mat
+|   |   |   |       Roboto-Bold SDF - Surface.mat.meta
+|   |   |   |       Roboto-Bold SDF - URP.mat
+|   |   |   |       Roboto-Bold SDF - URP.mat.meta
+|   |   |   |       Roboto-Bold SDF.asset
+|   |   |   |       Roboto-Bold SDF.asset.meta
+|   |   |   |       Unity SDF - HDRP LIT - Bloom.mat
+|   |   |   |       Unity SDF - HDRP LIT - Bloom.mat.meta
+|   |   |   |       Unity SDF - HDRP LIT - Outline.mat
+|   |   |   |       Unity SDF - HDRP LIT - Outline.mat.meta
+|   |   |   |       Unity SDF.asset
+|   |   |   |       Unity SDF.asset.meta
+|   |   |   |       
+|   |   |   \---Sprite Assets
+|   |   |           Default Sprite Asset.asset
+|   |   |           Default Sprite Asset.asset.meta
+|   |   |           DropCap Numbers.asset
+|   |   |           DropCap Numbers.asset.meta
+|   |   |           
+|   |   +---Scenes
+|   |   |   |   01-  Single Line TextMesh Pro.unity
+|   |   |   |   01-  Single Line TextMesh Pro.unity.meta
+|   |   |   |   02 - Multi-line TextMesh Pro.unity
+|   |   |   |   02 - Multi-line TextMesh Pro.unity.meta
+|   |   |   |   03 - Line Justification.unity
+|   |   |   |   03 - Line Justification.unity.meta
+|   |   |   |   04 - Word Wrapping.unity
+|   |   |   |   04 - Word Wrapping.unity.meta
+|   |   |   |   05 - Style Tags.unity
+|   |   |   |   05 - Style Tags.unity.meta
+|   |   |   |   06 - Extra Rich Text Examples.unity
+|   |   |   |   06 - Extra Rich Text Examples.unity.meta
+|   |   |   |   07 - Superscript & Subscript Example.unity
+|   |   |   |   07 - Superscript & Subscript Example.unity.meta
+|   |   |   |   08 - Improved Text Alignment.unity
+|   |   |   |   08 - Improved Text Alignment.unity.meta
+|   |   |   |   09 - Margin Tag Example.unity
+|   |   |   |   09 - Margin Tag Example.unity.meta
+|   |   |   |   10 - Bullets & Numbered List Example.unity
+|   |   |   |   10 - Bullets & Numbered List Example.unity.meta
+|   |   |   |   11 - The Style Tag.unity
+|   |   |   |   11 - The Style Tag.unity.meta
+|   |   |   |   12 - Link Example.unity
+|   |   |   |   12 - Link Example.unity.meta
+|   |   |   |   12a - Text Interactions.unity
+|   |   |   |   12a - Text Interactions.unity.meta
+|   |   |   |   13 - Soft Hyphenation.unity
+|   |   |   |   13 - Soft Hyphenation.unity.meta
+|   |   |   |   14 - Multi Font & Sprites.unity
+|   |   |   |   14 - Multi Font & Sprites.unity.meta
+|   |   |   |   15 - Inline Graphics & Sprites.unity
+|   |   |   |   15 - Inline Graphics & Sprites.unity.meta
+|   |   |   |   16 - Linked text overflow mode example.unity
+|   |   |   |   16 - Linked text overflow mode example.unity.meta
+|   |   |   |   17 - Old Computer Terminal.unity
+|   |   |   |   17 - Old Computer Terminal.unity.meta
+|   |   |   |   18 - ScrollRect & Masking & Layout.unity
+|   |   |   |   18 - ScrollRect & Masking & Layout.unity.meta
+|   |   |   |   19 - Masking Texture & Soft Mask.unity
+|   |   |   |   19 - Masking Texture & Soft Mask.unity.meta
+|   |   |   |   20 - Input Field with Scrollbar.unity
+|   |   |   |   20 - Input Field with Scrollbar.unity.meta
+|   |   |   |   21 - Script Example.unity
+|   |   |   |   21 - Script Example.unity.meta
+|   |   |   |   22 - Basic Scripting Example.unity
+|   |   |   |   22 - Basic Scripting Example.unity.meta
+|   |   |   |   23 - Animating Vertex Attributes.unity
+|   |   |   |   23 - Animating Vertex Attributes.unity.meta
+|   |   |   |   24 - Surface Shader Example URP.unity
+|   |   |   |   24 - Surface Shader Example URP.unity.meta
+|   |   |   |   24 - Surface Shader Example.unity
+|   |   |   |   24 - Surface Shader Example.unity.meta
+|   |   |   |   25 - Sunny Days Example.unity
+|   |   |   |   25 - Sunny Days Example.unity.meta
+|   |   |   |   26 - Dropdown Placeholder Example.unity
+|   |   |   |   26 - Dropdown Placeholder Example.unity.meta
+|   |   |   |   27 - Double Pass Shader Example.unity
+|   |   |   |   27 - Double Pass Shader Example.unity.meta
+|   |   |   |   28 - HDRP Shader Example.meta
+|   |   |   |   28 - HDRP Shader Example.unity
+|   |   |   |   28 - HDRP Shader Example.unity.meta
+|   |   |   |   Benchmark (Floating Text).unity
+|   |   |   |   Benchmark (Floating Text).unity.meta
+|   |   |   |   
+|   |   |   \---28 - HDRP Shader Example
+|   |   |           Sky and Fog Volume Profile.asset
+|   |   |           Sky and Fog Volume Profile.asset.meta
+|   |   |           
+|   |   +---Scripts
+|   |   |       Benchmark01.cs
+|   |   |       Benchmark01.cs.meta
+|   |   |       Benchmark01_UGUI.cs
+|   |   |       Benchmark01_UGUI.cs.meta
+|   |   |       Benchmark02.cs
+|   |   |       Benchmark02.cs.meta
+|   |   |       Benchmark03.cs
+|   |   |       Benchmark03.cs.meta
+|   |   |       Benchmark04.cs
+|   |   |       Benchmark04.cs.meta
+|   |   |       CameraController.cs
+|   |   |       CameraController.cs.meta
+|   |   |       ChatController.cs
+|   |   |       ChatController.cs.meta
+|   |   |       DropdownSample.cs
+|   |   |       DropdownSample.cs.meta
+|   |   |       EnvMapAnimator.cs
+|   |   |       EnvMapAnimator.cs.meta
+|   |   |       ObjectSpin.cs
+|   |   |       ObjectSpin.cs.meta
+|   |   |       ShaderPropAnimator.cs
+|   |   |       ShaderPropAnimator.cs.meta
+|   |   |       SimpleScript.cs
+|   |   |       SimpleScript.cs.meta
+|   |   |       SkewTextExample.cs
+|   |   |       SkewTextExample.cs.meta
+|   |   |       TeleType.cs
+|   |   |       TeleType.cs.meta
+|   |   |       TextConsoleSimulator.cs
+|   |   |       TextConsoleSimulator.cs.meta
+|   |   |       TextMeshProFloatingText.cs
+|   |   |       TextMeshProFloatingText.cs.meta
+|   |   |       TextMeshSpawner.cs
+|   |   |       TextMeshSpawner.cs.meta
+|   |   |       TMPro_InstructionOverlay.cs
+|   |   |       TMPro_InstructionOverlay.cs.meta
+|   |   |       TMP_DigitValidator.cs
+|   |   |       TMP_DigitValidator.cs.meta
+|   |   |       TMP_ExampleScript_01.cs
+|   |   |       TMP_ExampleScript_01.cs.meta
+|   |   |       TMP_FrameRateCounter.cs
+|   |   |       TMP_FrameRateCounter.cs.meta
+|   |   |       TMP_PhoneNumberValidator.cs
+|   |   |       TMP_PhoneNumberValidator.cs.meta
+|   |   |       TMP_TextEventCheck.cs
+|   |   |       TMP_TextEventCheck.cs.meta
+|   |   |       TMP_TextEventHandler.cs
+|   |   |       TMP_TextEventHandler.cs.meta
+|   |   |       TMP_TextInfoDebugTool.cs
+|   |   |       TMP_TextInfoDebugTool.cs.meta
+|   |   |       TMP_TextSelector_A.cs
+|   |   |       TMP_TextSelector_A.cs.meta
+|   |   |       TMP_TextSelector_B.cs
+|   |   |       TMP_TextSelector_B.cs.meta
+|   |   |       TMP_UiFrameRateCounter.cs
+|   |   |       TMP_UiFrameRateCounter.cs.meta
+|   |   |       VertexColorCycler.cs
+|   |   |       VertexColorCycler.cs.meta
+|   |   |       VertexJitter.cs
+|   |   |       VertexJitter.cs.meta
+|   |   |       VertexShakeA.cs
+|   |   |       VertexShakeA.cs.meta
+|   |   |       VertexShakeB.cs
+|   |   |       VertexShakeB.cs.meta
+|   |   |       VertexZoom.cs
+|   |   |       VertexZoom.cs.meta
+|   |   |       WarpTextExample.cs
+|   |   |       WarpTextExample.cs.meta
+|   |   |       
+|   |   +---Sprites
+|   |   |       Default Sprites.png
+|   |   |       Default Sprites.png.meta
+|   |   |       DropCap Numbers.psd
+|   |   |       DropCap Numbers.psd.meta
+|   |   |       
+|   |   \---Textures
+|   |           Brushed Metal 3.jpg
+|   |           Brushed Metal 3.jpg.meta
+|   |           Floor Cement.jpg
+|   |           Floor Cement.jpg.meta
+|   |           Floor Tiles 1 - diffuse.jpg
+|   |           Floor Tiles 1 - diffuse.jpg.meta
+|   |           Fruit Jelly (B&W).jpg
+|   |           Fruit Jelly (B&W).jpg.meta
+|   |           Gradient Diagonal (Color).jpg
+|   |           Gradient Diagonal (Color).jpg.meta
+|   |           Gradient Horizontal (Color).jpg
+|   |           Gradient Horizontal (Color).jpg.meta
+|   |           Gradient Vertical (Color).jpg
+|   |           Gradient Vertical (Color).jpg.meta
+|   |           Mask Zig-n-Zag.psd
+|   |           Mask Zig-n-Zag.psd.meta
+|   |           Small Crate_diffuse.jpg
+|   |           Small Crate_diffuse.jpg.meta
+|   |           Small Crate_normal.jpg
+|   |           Small Crate_normal.jpg.meta
+|   |           Sunny Days - Seamless.jpg
+|   |           Sunny Days - Seamless.jpg.meta
+|   |           Text Overflow - Linked Text Image 1.png
+|   |           Text Overflow - Linked Text Image 1.png.meta
+|   |           Text Overflow - Linked Text UI Screenshot.png
+|   |           Text Overflow - Linked Text UI Screenshot.png.meta
+|   |           Wipe Pattern - Circle.psd
+|   |           Wipe Pattern - Circle.psd.meta
+|   |           Wipe Pattern - Diagonal.psd
+|   |           Wipe Pattern - Diagonal.psd.meta
+|   |           Wipe Pattern - Radial Double.psd
+|   |           Wipe Pattern - Radial Double.psd.meta
+|   |           Wipe Pattern - Radial Quad.psd
+|   |           Wipe Pattern - Radial Quad.psd.meta
+|   |           
+|   +---Fonts
+|   |       LiberationSans - OFL.txt
+|   |       LiberationSans - OFL.txt.meta
+|   |       LiberationSans.ttf
+|   |       LiberationSans.ttf.meta
+|   |       
+|   +---Resources
+|   |   |   Fonts & Materials.meta
+|   |   |   LineBreaking Following Characters.txt
+|   |   |   LineBreaking Following Characters.txt.meta
+|   |   |   LineBreaking Leading Characters.txt
+|   |   |   LineBreaking Leading Characters.txt.meta
+|   |   |   Sprite Assets.meta
+|   |   |   Style Sheets.meta
+|   |   |   TMP Settings.asset
+|   |   |   TMP Settings.asset.meta
+|   |   |   
+|   |   +---Fonts & Materials
+|   |   |       LiberationSans SDF - Drop Shadow.mat
+|   |   |       LiberationSans SDF - Drop Shadow.mat.meta
+|   |   |       LiberationSans SDF - Fallback.asset
+|   |   |       LiberationSans SDF - Fallback.asset.meta
+|   |   |       LiberationSans SDF - Outline.mat
+|   |   |       LiberationSans SDF - Outline.mat.meta
+|   |   |       LiberationSans SDF.asset
+|   |   |       LiberationSans SDF.asset.meta
+|   |   |       
+|   |   +---Sprite Assets
+|   |   |       EmojiOne.asset
+|   |   |       EmojiOne.asset.meta
+|   |   |       
+|   |   \---Style Sheets
+|   |           Default Style Sheet.asset
+|   |           Default Style Sheet.asset.meta
+|   |           
+|   +---Shaders
+|   |       SDFFunctions.hlsl
+|   |       SDFFunctions.hlsl.meta
+|   |       TMPro.cginc
+|   |       TMPro.cginc.meta
+|   |       TMPro_Mobile.cginc
+|   |       TMPro_Mobile.cginc.meta
+|   |       TMPro_Properties.cginc
+|   |       TMPro_Properties.cginc.meta
+|   |       TMPro_Surface.cginc
+|   |       TMPro_Surface.cginc.meta
+|   |       TMP_Bitmap-Custom-Atlas.shader
+|   |       TMP_Bitmap-Custom-Atlas.shader.meta
+|   |       TMP_Bitmap-Mobile.shader
+|   |       TMP_Bitmap-Mobile.shader.meta
+|   |       TMP_Bitmap.shader
+|   |       TMP_Bitmap.shader.meta
+|   |       TMP_SDF Overlay.shader
+|   |       TMP_SDF Overlay.shader.meta
+|   |       TMP_SDF SSD.shader
+|   |       TMP_SDF SSD.shader.meta
+|   |       TMP_SDF-HDRP LIT.shadergraph
+|   |       TMP_SDF-HDRP LIT.shadergraph.meta
+|   |       TMP_SDF-HDRP UNLIT.shadergraph
+|   |       TMP_SDF-HDRP UNLIT.shadergraph.meta
+|   |       TMP_SDF-Mobile Masking.shader
+|   |       TMP_SDF-Mobile Masking.shader.meta
+|   |       TMP_SDF-Mobile Overlay.shader
+|   |       TMP_SDF-Mobile Overlay.shader.meta
+|   |       TMP_SDF-Mobile SSD.shader
+|   |       TMP_SDF-Mobile SSD.shader.meta
+|   |       TMP_SDF-Mobile-2-Pass.shader
+|   |       TMP_SDF-Mobile-2-Pass.shader.meta
+|   |       TMP_SDF-Mobile.shader
+|   |       TMP_SDF-Mobile.shader.meta
+|   |       TMP_SDF-Surface-Mobile.shader
+|   |       TMP_SDF-Surface-Mobile.shader.meta
+|   |       TMP_SDF-Surface.shader
+|   |       TMP_SDF-Surface.shader.meta
+|   |       TMP_SDF-URP Lit.shadergraph
+|   |       TMP_SDF-URP Lit.shadergraph.meta
+|   |       TMP_SDF-URP Unlit.shadergraph
+|   |       TMP_SDF-URP Unlit.shadergraph.meta
+|   |       TMP_SDF.shader
+|   |       TMP_SDF.shader.meta
+|   |       TMP_Sprite.shader
+|   |       TMP_Sprite.shader.meta
+|   |       
+|   \---Sprites
+|           EmojiOne Attribution.txt
+|           EmojiOne Attribution.txt.meta
+|           EmojiOne.json
+|           EmojiOne.json.meta
+|           EmojiOne.png
+|           EmojiOne.png.meta
+|           
+\---Tileset
+    |   Dungeon Tale.meta
+    |   
+    \---Dungeon Tale
+        |   Assets.meta
+        |   Dt by NullTale.txt
+        |   Dt by NullTale.txt.meta
+        |   Scenes.meta
+        |   
+        +---Assets
+        |   |   Animations.meta
+        |   |   Materials.meta
+        |   |   Sprites.meta
+        |   |   Tiles.meta
+        |   |   
+        |   +---Animations
+        |   |       Bubbles.ase
+        |   |       Bubbles.ase.meta
+        |   |       Coin.ase
+        |   |       Coin.ase.meta
+        |   |       Fx.ase
+        |   |       Fx.ase.meta
+        |   |       Hero.ase
+        |   |       Hero.ase.meta
+        |   |       Spikes.ase
+        |   |       Spikes.ase.meta
+        |   |       Torch.ase
+        |   |       Torch.ase.meta
+        |   |       
+        |   +---Materials
+        |   |   |   INFO.txt
+        |   |   |   INFO.txt.meta
+        |   |   |   Main.mat
+        |   |   |   Main.mat.meta
+        |   |   |   Main.png
+        |   |   |   Main.png.meta
+        |   |   |   Main_Ramps.png
+        |   |   |   Main_Ramps.png.meta
+        |   |   |   Shaders.meta
+        |   |   |   Urp.asset
+        |   |   |   Urp.asset.meta
+        |   |   |   Urp_Renderer.asset
+        |   |   |   Urp_Renderer.asset.meta
+        |   |   |   
+        |   |   \---Shaders
+        |   |           LutLight.hlsl
+        |   |           LutLight.hlsl.meta
+        |   |           LutLight.shadergraph
+        |   |           LutLight.shadergraph.meta
+        |   |           
+        |   +---Sprites
+        |   |       Atlas.png
+        |   |       Atlas.png.meta
+        |   |       Bubbles.png
+        |   |       Bubbles.png.meta
+        |   |       Coin.png
+        |   |       Coin.png.meta
+        |   |       Fx.png
+        |   |       Fx.png.meta
+        |   |       Hero.png
+        |   |       Hero.png.meta
+        |   |       Spikes.png
+        |   |       Spikes.png.meta
+        |   |       Torch.png
+        |   |       Torch.png.meta
+        |   |       
+        |   \---Tiles
+        |           Carpet.asset
+        |           Carpet.asset.meta
+        |           Dungeon Tale.prefab
+        |           Dungeon Tale.prefab.meta
+        |           Floor Dirt.asset
+        |           Floor Dirt.asset.meta
+        |           Floor Flash.asset
+        |           Floor Flash.asset.meta
+        |           Floor Green.asset
+        |           Floor Green.asset.meta
+        |           Floor Metal.asset
+        |           Floor Metal.asset.meta
+        |           Floor Red.asset
+        |           Floor Red.asset.meta
+        |           Floor Wood.asset
+        |           Floor Wood.asset.meta
+        |           Wall.asset
+        |           Wall.asset.meta
+        |           
+        \---Scenes
+                Demo.unity
+                Demo.unity.meta
+                

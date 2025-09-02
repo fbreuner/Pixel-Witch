@@ -1,0 +1,93 @@
+Pixel Witch MVP Development Plan
+Goal 1: Core Foundation - Ring System and Persistence
+Subgoal 1.1: Implement Ring Spinning Animation
+Approach: Create a component that continuously rotates ring GameObjects until stopped by player input. Strategy: Use Transform.Rotate() in Update() with configurable speed per ring, implement tap detection to trigger stop sequence. Deliverable: Three rings that spin continuously at different speeds and stop when tapped in sequence.
+
+Subgoal 1.2: Fix Symbol Alignment and Reward Detection
+Approach: Calculate winning positions based on ring rotation and detect symbol matches in the vertical winning row. Strategy: Use modular arithmetic to determine which icon is at the winning position, compare symbols across all three rings. Deliverable: Correct reward generation when 2 or 3 symbols match in the winning row, with proper magic distribution.
+
+Subgoal 1.3: Implement Special Symbol Recognition
+Approach: Extend reward detection to identify Lightning, Dragonfruit, and Lotus symbols and trigger appropriate events. Strategy: Create enum for special symbols, add conditional logic in reward calculation to detect special combinations. Deliverable: Special symbols trigger different outcomes: Lightning starts robot minigame, Dragonfruit starts dragonfly minigame, Lotus gives free ingredients.
+
+Subgoal 1.4: Create JSON-Based Save System
+Approach: Implement serializable data structures and file I/O operations for persistent game state. Strategy: Create GameData class with all persistent fields, use JsonUtility for serialization, save to Application.persistentDataPath. Deliverable: Game state saves automatically and loads on startup, preserving currencies, levels, and progress across sessions.
+
+Goal 2: Garden Implementation
+Subgoal 2.1: Create Garden Scene and Navigation
+Approach: Build dedicated garden scene with UI elements and implement scene transition from cauldron. Strategy: Create new scene, add navigation button in cauldron scene, implement scene loading with state preservation. Deliverable: Functional garden scene accessible from cauldron scene with return navigation.
+
+Subgoal 2.2: Implement Real-Time Ingredient Production
+Approach: Create timer-based ingredient generation system that works both while active and offline. Strategy: Use Time.deltaTime for active generation, calculate offline production using DateTime comparison on scene load. Deliverable: Garden produces ingredients at regular intervals, calculates offline income when returning to game.
+
+Subgoal 2.3: Add Garden Storage and Collection
+Approach: Implement storage capacity limits and collection mechanics for produced ingredients. Strategy: Track stored vs. capacity, disable production when full, provide collect button to transfer to global ingredient count. Deliverable: Garden has storage limit, shows stored/capacity ratio, allows collection of ingredients to add to player inventory.
+
+Subgoal 2.4: Create Garden Upgrade System
+Approach: Implement magic-based upgrades that improve production rate, storage capacity, and visual appearance. Strategy: Create upgrade costs that increase per level, modify production variables, swap sprites at upgrade milestones. Deliverable: Garden can be upgraded with magic to produce faster, store more, and change visual appearance.
+
+Subgoal 2.5: Implement Weed Growth and Removal
+Approach: Add weed GameObjects that spawn over time and can be tapped to remove. Strategy: Use timer system to spawn weed sprites, detect tap on weed objects, remove with tap feedback. Deliverable: Weeds appear in garden over time, can be tapped to remove, removal has visual feedback.
+
+Subgoal 2.6: Add Lunar Beetle Spawning
+Approach: Spawn lunar beetles randomly when garden is weed-free, providing lunar crystal rewards. Strategy: Check weed count before spawning beetles, create beetle GameObject with tap detection, award lunar crystals on collection. Deliverable: Beetles spawn in clean gardens, can be tapped for lunar crystal rewards.
+
+Goal 3: Basic Cottage Implementation
+Subgoal 3.1: Create Cottage Scene and Cleaning System
+Approach: Build cottage scene with dust/spiderweb accumulation and tap-to-clean mechanics. Strategy: Create dirt sprites that appear over time, implement tap detection on dirt objects, remove with visual feedback. Deliverable: Cottage scene with navigation, accumulates dirt over time, dirt can be tapped to clean.
+
+Subgoal 3.2: Implement Cottage Upgrade System
+Approach: Create magic-based cottage improvements that change visual appearance and unlock features. Strategy: Define upgrade tiers with costs, swap cottage sprites at upgrade levels, unlock new interactive elements. Deliverable: Cottage can be upgraded with magic, visual appearance improves with upgrades.
+
+Subgoal 3.3: Add Drying Rack Functionality
+Approach: Create ingredient storage system where ingredients mature over time for bonus rewards. Strategy: Implement storage slots with timers, calculate maturation bonus based on storage duration, provide collection interface. Deliverable: Drying rack stores ingredients, shows maturation timers, provides bonus ingredients when collected after maturation.
+
+Goal 4: Minigame Implementation
+Subgoal 4.1: Create Lightning Minigame Scene
+Approach: Build forest scene with robot enemies that can be clicked to zap and destroyed. Strategy: Create scene with robot GameObjects, implement click detection on robots, add destruction animation and audio. Deliverable: Functional lightning minigame scene where robots can be clicked to zap, with visual feedback for destruction.
+
+Subgoal 4.2: Implement Lightning Reward System
+Approach: Award double reward buff for next 3 cauldron spins based on robots zapped. Strategy: Track buff duration in GameManager, modify reward calculation when buff is active, provide visual indicator. Deliverable: Lightning minigame awards double reward buff, buff applies to next 3 cauldron spins, buff status is visible in UI.
+
+Subgoal 4.3: Create Dragonfly Minigame Scene
+Approach: Build cottage scene variant with dragonflies that can be clicked to capture for magic rewards. Strategy: Spawn dragonfly GameObjects in cottage, implement click detection, add capture animation and magic rewards. Deliverable: Functional dragonfly minigame where dragonflies can be clicked to capture for magic rewards.
+
+Subgoal 4.4: Implement Dragonfruit Reward System
+Approach: Award magic based on number of dragonflies captured, with multipliers for multiple dragonfruit symbols. Strategy: Track dragonflies captured, calculate magic reward, apply multiplier based on dragonfruit count from cauldron. Deliverable: Dragonfly minigame awards magic based on captures, supports multipliers for multiple dragonfruit symbols.
+
+Subgoal 4.5: Integrate Minigames with Cauldron
+Approach: Connect special symbol detection in cauldron to appropriate minigame scene loading. Strategy: Modify reward calculation to load minigame scenes instead of direct rewards for special symbols, pass minigame parameters. Deliverable: Lightning and Dragonfruit symbols in cauldron properly trigger their respective minigames with appropriate difficulty scaling.
+
+Goal 5: Basic Familiar System
+Subgoal 5.1: Create Single Familiar with Happiness
+Approach: Implement familiar GameObject in cottage with happiness tracking and visual indicators. Strategy: Create happiness value that decays over time, provide visual feedback for happiness level, implement happiness recovery mechanics. Deliverable: Single familiar in cottage with visible happiness level that changes over time.
+
+Subgoal 5.2: Implement Feeding System
+Approach: Add food container with capacity and feeding mechanics that affect familiar happiness. Strategy: Create food storage with timer-based consumption, allow magic-based food replenishment, tie food availability to happiness. Deliverable: Food container that depletes over time, can be refilled with magic, affects familiar happiness when empty.
+
+Subgoal 5.3: Add Petting Interaction
+Approach: Implement tap-to-pet mechanics that increase familiar happiness with visual feedback. Strategy: Detect taps on familiar GameObject, increase happiness value, show heart or similar feedback animation. Deliverable: Familiar can be tapped to pet, petting increases happiness, shows visual feedback when petted.
+
+Subgoal 5.4: Implement Gift Rewards
+Approach: Happy familiars occasionally provide gift rewards of lunar crystals or ingredients. Strategy: Use timer and happiness threshold to trigger gift generation, show gift notification, award random rewards. Deliverable: Happy familiars provide random gifts (lunar crystals/ingredients) with visual notifications.
+
+Goal 6: System Integration and Polish
+Subgoal 6.1: Complete Cross-Scene State Management
+Approach: Ensure all game state persists correctly across scene transitions and minigames. Strategy: Implement DontDestroyOnLoad for GameManager, save state before scene transitions, validate state preservation. Deliverable: All currencies, progress, and game state maintain consistency across all scenes and minigames.
+
+Subgoal 6.2: Implement Auto-Save System
+Approach: Automatically save game state at key moments without manual player intervention. Strategy: Trigger saves after currency changes, upgrades, and scene transitions, implement periodic auto-save timer. Deliverable: Game saves automatically after important actions, prevents progress loss if game closes unexpectedly.
+
+Subgoal 6.3: Add Lotus Reward Implementation
+Approach: Complete Lotus symbol functionality to provide free ingredients and gift bundles. Strategy: Detect Lotus symbols in cauldron, award ingredients directly to inventory, create placeholder gift system. Deliverable: Lotus symbols award 7 free ingredients plus gift bundle, with multipliers for multiple Lotus symbols.
+
+Subgoal 6.4: Implement Basic Experience System
+Approach: Award experience points for various player actions and track player level progression. Strategy: Add experience tracking to GameManager, define XP awards for actions, implement level calculation and level-up notifications. Deliverable: Player gains experience from actions (brewing, upgrading, cleaning), levels up with visual feedback.
+
+Subgoal 6.5: Create Complete Game Loop
+Approach: Verify that Garden → Cauldron → Minigames → Cottage progression works seamlessly. Strategy: Test full gameplay flow, ensure each system feeds into the next, validate resource flow and progression pacing. Deliverable: Complete playable loop where garden provides ingredients for cauldron, cauldron provides magic for cottage upgrades, all systems work together.
+
+Subgoal 6.6: Final Bug Testing and Optimization
+Approach: Systematic testing of all features for bugs, performance issues, and edge cases. Strategy: Test save/load robustness, currency overflow handling, scene transition stability, minigame completion edge cases. Deliverable: Stable, bug-free build with consistent performance across all implemented features.
+
+
+
